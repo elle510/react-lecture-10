@@ -8,6 +8,7 @@ import StateProps from './pages/lectures/lecture01/StateProps';
 import StateManagement from './pages/lectures/lecture02/StateManagement';
 import ActionStateExample from './pages/lectures/lecture03/ActionStateExample';
 import SeoExample from './pages/lectures/lecture03/SeoExample';
+import UseExample from './pages/lectures/lecture03/UseExample';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/lecture/2" element={<StateManagement />} />
             <Route path="/lecture/3-1" element={<SeoExample />} />
             <Route path="/lecture/3-2" element={<ActionStateExample />} />
+            <Route path="/lecture/3-3" element={<UseExample />} />
           </Routes>
         </main>
       </div>

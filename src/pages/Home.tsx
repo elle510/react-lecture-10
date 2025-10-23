@@ -39,6 +39,12 @@ const lectures = [
     path: '/lecture/3-2',
     category: '3. React 19 업데이트 가이드',
   },
+  {
+    id: '3-3',
+    title: 'use 소개',
+    path: '/lecture/3-3',
+    category: '3. React 19 업데이트 가이드',
+  },
 ];
 
 // 카테고리별로 강의 그룹화
