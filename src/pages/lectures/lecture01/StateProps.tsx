@@ -31,7 +31,7 @@ function StateProps() {
 
   return (
     <div>
-      <h2 className="mb-4 text-2xl font-bold">1강: React Props 와 State</h2>
+      <h2 className="mb-4 text-2xl font-bold">1-1: React Props 와 State</h2>
 
       {/* State 예제 */}
       <div className="rounded-lg bg-blue-100 p-4">

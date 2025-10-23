@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // 최종적으로 데이터를 사용할 손자 컴포넌트
 function GrandChildComponent({ user }: { user: { name: string } }) {
@@ -27,11 +27,11 @@ function ChildComponent({ user }: { user: { name: string } }) {
 
 // 최상위 부모 컴포넌트
 function PropsDrilling() {
-  const [user] = useState({ name: '김민준' });
+  const [user] = React.useState({ name: '김민준' });
 
   return (
     <div>
-      <h2 className="mb-4 text-2xl font-bold">2강: Props Drilling의 문제점</h2>
+      <h2 className="mb-4 text-2xl font-bold">1-2: Props Drilling의 문제점</h2>
       <div className="rounded-lg border border-blue-300 bg-blue-100 p-4">
         <h4 className="font-semibold">부모 컴포넌트</h4>
         <p>이곳에서 'user' state를 정의합니다.</p>
