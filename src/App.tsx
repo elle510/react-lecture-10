@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import ContextAPI from './pages/lectures/lecture01/ContextApi';
 import PropsDrilling from './pages/lectures/lecture01/PropsDrilling';
 import StateProps from './pages/lectures/lecture01/StateProps';
+import StateManagement from './pages/lectures/lecture02/StateManagement';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/lecture/1-1" element={<StateProps />} />
             <Route path="/lecture/1-2" element={<PropsDrilling />} />
             <Route path="/lecture/1-3" element={<ContextAPI />} />
+            <Route path="/lecture/2" element={<StateManagement />} />
           </Routes>
         </main>
       </div>

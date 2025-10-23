@@ -21,7 +21,12 @@ const lectures = [
     path: '/lecture/1-3',
     category: '1. ContextAPI: Props 대체와 전역 데이터 관리',
   },
-  // { id: 3, title: '...', path: '/lecture/3', category: '...' },
+  {
+    id: '2',
+    title: '상태(State) 사용법',
+    path: '/lecture/2',
+    category: '2. Hook Basic - useState로 컴포넌트 상태 관리',
+  },
 ];
 
 // 카테고리별로 강의 그룹화

@@ -28,7 +28,7 @@ function ChildComponent() {
   const value = React.useContext(MyContext);
   return (
     <div>
-      <h4>Child Component</h4>
+      <h4>1-3: Child Component</h4>
       <p>Title: {value.title}</p>
       <p>Description: {value.description}</p>
     </div>
