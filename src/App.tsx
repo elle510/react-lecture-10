@@ -1,26 +1,22 @@
-import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Home from './pages/Home';
+import Lecture01 from './pages/lectures/Lecture01';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="mx-auto max-w-7xl px-4">
-      <Header />
-      <main className="py-8">
-        <Home />
-        <div className="mt-8 rounded-lg bg-slate-100 p-8 shadow-md">
-          <button
-            className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
-            onClick={() => setCount((count) => count + 1)}
-          >
-            count is {count}
-          </button>
-        </div>
-      </main>
-    </div>
+    <BrowserRouter>
+      <div className="mx-auto max-w-7xl px-4">
+        <Header />
+        <main className="py-8">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/lecture/1" element={<Lecture01 />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
