@@ -6,6 +6,8 @@ import ContextAPI from './pages/lectures/lecture01/ContextApi';
 import PropsDrilling from './pages/lectures/lecture01/PropsDrilling';
 import StateProps from './pages/lectures/lecture01/StateProps';
 import StateManagement from './pages/lectures/lecture02/StateManagement';
+import ActionStateExample from './pages/lectures/lecture03/ActionStateExample';
+import SeoExample from './pages/lectures/lecture03/SeoExample';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/lecture/1-2" element={<PropsDrilling />} />
             <Route path="/lecture/1-3" element={<ContextAPI />} />
             <Route path="/lecture/2" element={<StateManagement />} />
+            <Route path="/lecture/3-1" element={<SeoExample />} />
+            <Route path="/lecture/3-2" element={<ActionStateExample />} />
           </Routes>
         </main>
       </div>

@@ -27,6 +27,18 @@ const lectures = [
     path: '/lecture/2',
     category: '2. Hook Basic - useState로 컴포넌트 상태 관리',
   },
+  {
+    id: '3-1',
+    title: 'Document Metadata 지원(SEO 최적화 예제)',
+    path: '/lecture/3-1',
+    category: '3. React 19 업데이트 가이드',
+  },
+  {
+    id: '3-2',
+    title: 'useActionState 소개',
+    path: '/lecture/3-2',
+    category: '3. React 19 업데이트 가이드',
+  },
 ];
 
 // 카테고리별로 강의 그룹화
