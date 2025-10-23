@@ -2,7 +2,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Home from './pages/Home';
-import Lecture01 from './pages/lectures/Lecture01';
+import StateProps from './pages/lectures/lecture01/StateProps';
+
+// import PropsDrilling from './pages/lectures/lecture01/PropsDrilling';
+// import ContextAPI from './pages/lectures/lecture02/ContextAPI';
 
 function App() {
   return (
@@ -12,7 +15,9 @@ function App() {
         <main className="py-8">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/lecture/1" element={<Lecture01 />} />
+            <Route path="/lecture/1-1" element={<StateProps />} />
+            {/* <Route path="/lecture/1-2" element={<PropsDrilling />} />
+            <Route path="/lecture/1-3" element={<ContextAPI />} /> */}
           </Routes>
         </main>
       </div>

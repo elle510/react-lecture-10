@@ -18,7 +18,7 @@ function Greeting({ message, count }: GreetingProps) {
 }
 
 // 메인 강의 페이지 컴포넌트
-function Lecture01() {
+function StateProps() {
   // --- State --- //
   // useState를 사용하여 컴포넌트의 상태(state)를 관리합니다.
   // count: 현재 상태 값
@@ -55,4 +55,4 @@ function Lecture01() {
   );
 }
 
-export default Lecture01;
+export default StateProps;
